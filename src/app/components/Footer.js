@@ -1,20 +1,16 @@
 import styles from "./footer.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer(){
     return(
         <footer className={styles.rodape}>
-    <Image
-      width={100} 
+    <Image className="moodle"
+      width={140} 
       height={100}
-      src={"https://www.ifms.edu.br/marcaifms.png"} />
-            <h5 class="rodape">All rights reserved</h5>
-
-            <ul className="apps">
-                <li>Instagram:</li>
-                <li>Twitter:</li>
-                <li>Contats:</li>
-            </ul>
+      src={"https://www.ifms.edu.br/acesso-a-sistemas/imagens/moodle/@@images/image/preview"}></Image>
+      <br></br>
+      <Link href="https://ead.ifms.edu.br/">Moodle</Link>
         </footer>
     )
 }

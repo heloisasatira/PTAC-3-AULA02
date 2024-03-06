@@ -8,19 +8,13 @@ export default function Menu(){
      <Image
       width={100} 
       height={100}
-      src={"https://www.ifms.edu.br/marcaifms.png"} />
-      
-            <h3 class="cabecalho">My litlle things</h3>
+      src={"https://www.ifms.edu.br/marcaifms.png"}/>
+      <br></br>
+      <h1>Welcome Back!</h1>
                 <nav>
                     <ul class="listas">
-                        <Link href="/">
-                           <li>Rise and shinee</li>
-                        </Link>
-                        <Link href="/">
-                           <li>Pick me! choose me! love me!</li>
-                        </Link>
-                        <Link href="/">
-                           <li>How I love being a WOMAN</li>
+                        <Link href="https://ead.ifms.edu.br/">
+                           <li>Venha para o mundo IFMS!</li>
                         </Link>
                     </ul>
                 </nav>
