@@ -1,0 +1,7 @@
+.rodape{
+    background-color: rgb(224, 138, 255);
+    bottom: 0;
+    position: fixed;
+    height: 46%;
+    width: 100%;
+}
