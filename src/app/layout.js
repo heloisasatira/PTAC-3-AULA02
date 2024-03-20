@@ -1,6 +1,7 @@
 import Menu from './components/Menu';
-import Footer from './components/Footer';
-import Map from './components/Map';
+import Route from './api/route';
+/* import Footer from './components/Footer'; */
+/* import Map from './components/Map'; */
 import Link from 'next/link';
 
 export const metadata = {
@@ -12,10 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body>
+      <Menu/>
+      <Route/>
         {children}
-        <Menu/>
-        <Footer/>
-        <Map/>
+        {/* <Footer/> */}
+        {/* <Map/> */}
       </body>
     </html>
   )

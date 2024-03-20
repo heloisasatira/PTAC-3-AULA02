@@ -14,7 +14,7 @@ export default function Menu(){
                 <nav>
                     <ul class="listas">
                         <Link href="https://ead.ifms.edu.br/">
-                           <li>Venha para o mundo IFMS!</li>
+                           <li>Venha para o IFMS!</li>
                         </Link>
                     </ul>
                 </nav>

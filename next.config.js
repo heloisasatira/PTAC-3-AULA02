@@ -4,7 +4,7 @@
 const nextConfig = {
     images: {
         domains: [
-            "www.ifms.edu.br"
+            "www.ifms.edu.br", "www.cdn2.novanews.com.br"
         ]
     }
 
