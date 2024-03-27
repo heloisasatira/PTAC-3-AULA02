@@ -7,6 +7,7 @@ export default async function Home() {
   });
 
   const campi = await resposta.json();
+  
   return (
     <main>   
       <h1>Home</h1>
